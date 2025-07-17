@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/lockButton"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="锁"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:background="@android:color/system_accent1_100"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击锁字即可锁屏"
+        android:textSize="16sp"
+        android:textColor="@android:color/system_accent1_600" />
+
+</LinearLayout>
